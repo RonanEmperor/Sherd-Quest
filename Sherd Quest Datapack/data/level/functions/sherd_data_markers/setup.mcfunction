@@ -1,0 +1,1 @@
+execute if entity @e[type=#level:level_markers, tag=pot_placement, sort=nearest, limit=1, distance=..2] run tag @s add dynamic

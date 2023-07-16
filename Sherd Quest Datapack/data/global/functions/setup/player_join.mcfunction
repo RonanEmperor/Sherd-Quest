@@ -1,0 +1,1 @@
+tellraw @a[tag=debug] {"text": "Joined.", "color": "gray", "italic": true}
