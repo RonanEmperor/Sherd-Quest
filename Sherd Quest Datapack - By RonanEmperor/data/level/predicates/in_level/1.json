@@ -1,0 +1,7 @@
+{
+    "condition": "minecraft:location_check",
+    "offsetX": 12,
+    "offsetY": 3,
+    "offsetZ": 12,
+    "predicate": {}
+  }  
