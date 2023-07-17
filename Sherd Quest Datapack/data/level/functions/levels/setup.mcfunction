@@ -6,7 +6,7 @@ give @a minecraft:wooden_pickaxe{Unbreakable: 1b, CanDestroy: ["minecraft:decora
 
 # Level specific setup
 execute if score $current_level levels matches 1 positioned 50 64 -10 rotated 180 0 run function level:levels/all/1
-execute if score $current_level levels matches 101 positioned 59 67 -72 rotated 180 0 run function level:levels/all/a
+execute if score $current_level levels matches 101 positioned 59 67 -72 rotated 180 0 run function level:levels/all/101
 
 # Additional resetting
 execute as @e[type=#level:level_markers, tag=dynamic, tag=pot_placement] run fill ~-5 ~-1 ~5 ~5 ~-1 ~5 minecraft:cyan_terracotta replace #level:all_terracotta

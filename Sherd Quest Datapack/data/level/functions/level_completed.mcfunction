@@ -1,5 +1,11 @@
 # Unlock new level
+scoreboard players set $new_level_unlocked levels -1
+execute unless score $current_level levels >= $levels_unlocked levels run tellraw @a ["", {"text": "["}, {"text": "✔", "color": "green", "bold": true}, {"text": "]"}, {"text": " Level Completed!", "color": "yellow"}]
+execute if score $current_level levels >= $levels_unlocked levels run scoreboard players operation $levels_unlocked levels = $current_level levels
+execute if score $current_level levels >= $levels_unlocked levels run scoreboard players operation $new_level_unlocked levels = $current_level levels
+execute if score $current_level levels >= $levels_unlocked levels run scoreboard players add $new_level_unlocked levels 1
 execute if score $current_level levels >= $levels_unlocked levels run scoreboard players add $levels_unlocked levels 1
+execute unless score $new_level_unlocked levels matches -1 run tellraw @a ["", {"text": "["}, {"text": "✔", "color": "green", "bold": true}, {"text": "]"}, {"text": " Level Completed! Level ", "color": "yellow"}, {"score": {"name": "$new_level_unlocked", "objective": "levels"}, "color": "gold", "underlined": true, "bold": true}, {"text": " has been unlocked.", "color": "yellow"}]
 
 # Feedback sound, messages and particles
 execute as @a at @s run playsound minecraft:entity.player.levelup master @s ~ ~ ~
@@ -9,8 +15,6 @@ title @a times 0.2s 1s 0.2s
 title @a subtitle [{"text": "Level Complete!", "color": "gold", "underlined": true}]
 title @a title ""
 
-execute if score $current_level levels >= $levels_unlocked levels run tellraw @a ["", {"text": "["}, {"text": "✔", "color": "green", "bold": true}, {"text": "]"}, {"text": " Level Completed! Level ", "color": "yellow"}, {"score": {"name": "$levels_unlocked", "objective": "levels"}, "color": "gold", "underlined": true, "bold": true}, {"text": " has been unlocked.", "color": "yellow"}]
-execute unless score $current_level levels >= $levels_unlocked levels run tellraw @a ["", {"text": "["}, {"text": "✔", "color": "green", "bold": true}, {"text": "]"}, {"text": " Level Completed!", "color": "yellow"}]
 
 # Set game state
 scoreboard players set $state state 2

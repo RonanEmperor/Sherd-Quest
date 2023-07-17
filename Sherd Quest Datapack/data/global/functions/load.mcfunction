@@ -1,6 +1,6 @@
 
 # DEBUG: Reloaded message
-scoreboard players set build debug 2
+scoreboard players set build debug 3
 tellraw @a[tag=debug] [{"text": "Datapack has been reloaded. ", "color": "gray", "italic": true}, "(Build ", {"score": {"name": "build", "objective": "debug"}}, ")"]
 
 
