@@ -4,5 +4,5 @@ The repository for Sherd Quest, a Minecraft: Java Edition map. Sherd Quest is a 
 
 ## Credits
 
-- **RonanEmperor**: Datapack
-- **Lazoh**: Builds
+- Datapack is being developed by **RonanEmperor**
+- Builds are being built by **Lazoh**
