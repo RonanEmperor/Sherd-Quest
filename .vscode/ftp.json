@@ -1,0 +1,12 @@
+{
+    "name": "SherdQuest",
+    "host": "198.244.132.218",
+    "protocol": "ftp",
+    "port": 21,
+    "username": "RonanEmperor.11526",
+    "password": "5YrW1j23p-*hNU",
+    "remotePath": "/SherdQuest/datapacks",
+    "uploadOnSave": true,
+    "useTempFile": false,
+    "openSsh": false
+}
