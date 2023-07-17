@@ -20,16 +20,17 @@ summon minecraft:marker ~18 ~ ~-6 {Tags: ["level_markers", "all_pot_placements"]
 
 
 # Give pots
-give @a minecraft:decorated_pot{BlockEntityTag: {sherds: ["minecraft:brick", "minecraft:angler_pottery_sherd", "minecraft:arms_up_pottery_sherd", "minecraft:archer_pottery_sherd"]}, CanPlaceOn: ["minecraft:terracotta"], display: {Name: '{"text": "Decorated Pot", "color": "#a34c3c", "italic": false}'}}
-
-give @a minecraft:decorated_pot{BlockEntityTag: {sherds: ["minecraft:brick", "minecraft:archer_pottery_sherd", "minecraft:blade_pottery_sherd", "minecraft:arms_up_pottery_sherd"]}, CanPlaceOn: ["minecraft:terracotta"], display: {Name: '{"text": "Decorated Pot", "color": "#a34c3c", "italic": false}'}}
-
-give @a minecraft:decorated_pot{BlockEntityTag: {sherds: ["minecraft:archer_pottery_sherd", "minecraft:arms_up_pottery_sherd", "minecraft:angler_pottery_sherd", "minecraft:blade_pottery_sherd"]}, CanPlaceOn: ["minecraft:terracotta"], display: {Name: '{"text": "Decorated Pot", "color": "#a34c3c", "italic": false}'}}
-
+#4
 give @a minecraft:decorated_pot{BlockEntityTag: {sherds: ["minecraft:blade_pottery_sherd", "minecraft:arms_up_pottery_sherd", "minecraft:arms_up_pottery_sherd", "minecraft:archer_pottery_sherd"]}, CanPlaceOn: ["minecraft:terracotta"], display: {Name: '{"text": "Decorated Pot", "color": "#a34c3c", "italic": false}'}}
-
-give @a minecraft:decorated_pot{BlockEntityTag: {sherds: ["minecraft:brick", "minecraft:archer_pottery_sherd", "minecraft:brick", "minecraft:arms_up_pottery_sherd"]}, CanPlaceOn: ["minecraft:terracotta"], display: {Name: '{"text": "Decorated Pot", "color": "#a34c3c", "italic": false}'}}
-
+#6
 give @a minecraft:decorated_pot{BlockEntityTag: {sherds: ["minecraft:brick", "minecraft:angler_pottery_sherd", "minecraft:blade_pottery_sherd", "minecraft:arms_up_pottery_sherd"]}, CanPlaceOn: ["minecraft:terracotta"], display: {Name: '{"text": "Decorated Pot", "color": "#a34c3c", "italic": false}'}}
-
+#2
+give @a minecraft:decorated_pot{BlockEntityTag: {sherds: ["minecraft:brick", "minecraft:archer_pottery_sherd", "minecraft:blade_pottery_sherd", "minecraft:arms_up_pottery_sherd"]}, CanPlaceOn: ["minecraft:terracotta"], display: {Name: '{"text": "Decorated Pot", "color": "#a34c3c", "italic": false}'}}
+#7
 give @a minecraft:decorated_pot{BlockEntityTag: {sherds: ["minecraft:brick", "minecraft:arms_up_pottery_sherd", "minecraft:brick", "minecraft:angler_pottery_sherd"]}, CanPlaceOn: ["minecraft:terracotta"], display: {Name: '{"text": "Decorated Pot", "color": "#a34c3c", "italic": false}'}}
+#3
+give @a minecraft:decorated_pot{BlockEntityTag: {sherds: ["minecraft:archer_pottery_sherd", "minecraft:arms_up_pottery_sherd", "minecraft:angler_pottery_sherd", "minecraft:blade_pottery_sherd"]}, CanPlaceOn: ["minecraft:terracotta"], display: {Name: '{"text": "Decorated Pot", "color": "#a34c3c", "italic": false}'}}
+#1
+give @a minecraft:decorated_pot{BlockEntityTag: {sherds: ["minecraft:brick", "minecraft:angler_pottery_sherd", "minecraft:arms_up_pottery_sherd", "minecraft:archer_pottery_sherd"]}, CanPlaceOn: ["minecraft:terracotta"], display: {Name: '{"text": "Decorated Pot", "color": "#a34c3c", "italic": false}'}}
+#5
+give @a minecraft:decorated_pot{BlockEntityTag: {sherds: ["minecraft:brick", "minecraft:archer_pottery_sherd", "minecraft:brick", "minecraft:arms_up_pottery_sherd"]}, CanPlaceOn: ["minecraft:terracotta"], display: {Name: '{"text": "Decorated Pot", "color": "#a34c3c", "italic": false}'}}
