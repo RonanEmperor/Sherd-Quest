@@ -2,7 +2,7 @@
     "pack": {
         "description": [
             "",
-            {"text": "Template Datapack - v0.0.0", "color": "red"},
+            {"text": "Sherd Quest Datapack - v0.0.0", "color": "red"},
             {"text": "\nBy ", "color": "white", "bold": false},
             {"text": "RonanEmperor", "color": "gold", "bold": true, "underlined": true}
     ],
