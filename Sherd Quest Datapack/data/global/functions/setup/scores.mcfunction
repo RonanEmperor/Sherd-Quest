@@ -1,3 +1,6 @@
+## Main setup for the scoreboard scores.
+## Runs from global:load through the tag #global:setup
+
 scoreboard players set $state state 0
 scoreboard players set $global ticks 0
 scoreboard players set $levels_unlocked levels 1

@@ -1,3 +1,6 @@
+## Main ticking for the levels
+## Runs from global:tick when score $state = 1.
+
 scoreboard players set $completed level_data 1
 scoreboard players add $level_time ticks 1
 

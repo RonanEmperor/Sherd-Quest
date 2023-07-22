@@ -1,3 +1,6 @@
+## Ticking for pot placement marker
+## Ran from level:tick
+
 scoreboard players add @s ticks 1
 
 # Get the direction of the pot

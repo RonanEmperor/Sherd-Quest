@@ -1,3 +1,6 @@
+## Gets and stores the direction of the pot placement markers.
+## Ran from level:pot_placement_marker/update 
+
 execute unless block ~ ~ ~ minecraft:decorated_pot run scoreboard players set @s pot_direction -1
 
 # Check direction of decorated pot

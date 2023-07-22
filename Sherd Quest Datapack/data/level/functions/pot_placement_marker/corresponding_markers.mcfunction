@@ -1,3 +1,6 @@
+## Summons corresponding markers (sherd_data_markers) on level setup
+## Ran from level:pot_placement_marker/setup
+
 execute positioned ^ ^ ^1 run summon minecraft:armor_stand ~ ~ ~ {Tags: ["level_markers", "sherd_data", "south"], ArmorItems: [{id: "minecraft:stone", Count: 1b}, {}, {}, {}], Invisible: true}
 execute positioned ^ ^ ^-1 run summon minecraft:armor_stand ~ ~ ~ {Tags: ["level_markers", "sherd_data", "north"], ArmorItems: [{id: "minecraft:stone", Count: 1b}, {}, {}, {}], Invisible: true}
 execute positioned ^1 ^ ^ run summon minecraft:armor_stand ~ ~ ~ {Tags: ["level_markers", "sherd_data", "east"], ArmorItems: [{id: "minecraft:stone", Count: 1b}, {}, {}, {}], Invisible: true}

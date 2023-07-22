@@ -1,3 +1,6 @@
+## Main setup for the gamerules.
+## Runs from global:load through the tag #global:setup
+
 gamerule announceAdvancements false
 gamerule disableRaids true
 gamerule doDaylightCycle false

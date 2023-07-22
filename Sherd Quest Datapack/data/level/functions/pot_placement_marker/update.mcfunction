@@ -1,3 +1,6 @@
+## Updating function for all pot placement markers
+## Ran from level:pot_placement_marker/tick when an update is detected.
+
 # Play sound when pot is placed down
 execute if score @s[scores={ticks=10..}] pot_direction matches 0.. run playsound minecraft:block.beacon.activate block @a ~ ~ ~ 1 2
 execute if score @s[scores={ticks=10..}] pot_direction matches -1 run playsound minecraft:block.beacon.deactivate block @a ~ ~ ~ 1 2
