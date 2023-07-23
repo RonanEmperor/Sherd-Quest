@@ -1,7 +1,8 @@
 ## Initial setup for the levels.
 
 # Initialise
-scoreboard players set $state state 1
+scoreboard players operation $current_level levels = @s current_level
+
 scoreboard players set $completed level_data 0
 scoreboard players set $level_time ticks 0
 

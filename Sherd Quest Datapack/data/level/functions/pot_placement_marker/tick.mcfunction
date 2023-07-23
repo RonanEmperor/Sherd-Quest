@@ -9,3 +9,6 @@ function level:pot_placement_marker/get_direction
 # Check for update
 execute unless score @s pot_direction_updated = @s pot_direction run function level:pot_placement_marker/update
 scoreboard players operation @s pot_direction_updated = @s pot_direction
+
+# DEBUG: particles
+particle end_rod ~ ~1 ~ 0 0 0 0 5 force @a[tag=debug]

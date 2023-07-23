@@ -5,6 +5,9 @@
 execute if score $state state matches 0 run function lobby:tick
 execute if score $state state matches 1 run function level:tick
 
+# Get a player's current level
+function level:get_current_level
+
 # Check if player has logged in
 scoreboard players add $global ticks 1
 scoreboard players add @a ticks 1
