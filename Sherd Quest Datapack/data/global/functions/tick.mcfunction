@@ -11,5 +11,8 @@ scoreboard players add @a ticks 1
 execute as @a unless score @s ticks = $global ticks run function global:setup/player_join
 scoreboard players operation @a ticks = $global ticks
 
+# Zone Titles
+execute as @a run function global:zone_titles
+
 # Get a player's current level
 function level:get_current_level

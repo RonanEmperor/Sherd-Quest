@@ -1,0 +1,30 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:miner_pottery_sherd"
+      },
+      "title": {
+        "text": "Sherd Quest",
+        "color": "#a34c3c",
+        "bold": true
+      },
+      "description": [
+            {"text": "A puzzle map by ", "color": "yellow"},
+            {"text": "Lazoh", "color": "gold", "bold": true},
+            {"text": " and ", "color": "yellow"},
+            {"text": "RonanEmperor", "color": "gold", "bold": true}
+      ],
+      "background": "minecraft:textures/block/red_sandstone_bottom.png",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "criteria": {
+      "crafting_table": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      }
+    }
+  }
+  
