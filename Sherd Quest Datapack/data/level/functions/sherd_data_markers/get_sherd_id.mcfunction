@@ -1,3 +1,6 @@
+## Stores the armor stands sherd data to a scoreboard score
+## Ran from level:sherd_data_markers/get_sherd_data
+
 scoreboard players set @s[nbt={ArmorItems: [{id: "minecraft:brick", Count: 1b}, {}, {}, {}]}] sherd_id 0
 scoreboard players set @s[nbt={ArmorItems: [{id: "minecraft:angler_pottery_sherd", Count: 1b}, {}, {}, {}]}] sherd_id 1
 scoreboard players set @s[nbt={ArmorItems: [{id: "minecraft:archer_pottery_sherd", Count: 1b}, {}, {}, {}]}] sherd_id 2

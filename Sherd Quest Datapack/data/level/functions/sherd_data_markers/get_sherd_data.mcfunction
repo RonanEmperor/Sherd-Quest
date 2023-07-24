@@ -1,3 +1,6 @@
+## Copies sherd item to ArmorItems from decorated pot placed nerby
+## Ran from level:sherd_data_markers/tick
+
 # Copy Sherd from Pot to ArmorItems
 execute if entity @s[tag=north] run data modify entity @s ArmorItems[0].id set from block ~ ~ ~ sherds[0]
 execute if entity @s[tag=west] run data modify entity @s ArmorItems[0].id set from block ~ ~ ~ sherds[1]

@@ -14,4 +14,4 @@ summon minecraft:marker ~6 ~ ~-6 {Tags: ["level_markers", "all_pot_placements"]}
 summon minecraft:marker ~12 ~ ~ {Tags: ["level_markers", "all_pot_placements"]}
 
 # Give pots
-give @a minecraft:decorated_pot{BlockEntityTag: {sherds: ["minecraft:miner_pottery_sherd", "minecraft:archer_pottery_sherd", "minecraft:blade_pottery_sherd", "minecraft:angler_pottery_sherd"]}, CanPlaceOn: ["#level:pot_placeable"], display: {Name: '{"text": "Decorated Pot", "color": "#a34c3c", "italic": false}'}}
+give @p[scores={current_level=1}] minecraft:decorated_pot{BlockEntityTag: {sherds: ["minecraft:miner_pottery_sherd", "minecraft:archer_pottery_sherd", "minecraft:blade_pottery_sherd", "minecraft:angler_pottery_sherd"]}, CanPlaceOn: ["#level:pot_placeable"], display: {Name: '{"text": "Decorated Pot", "color": "#a34c3c", "italic": false}'}}

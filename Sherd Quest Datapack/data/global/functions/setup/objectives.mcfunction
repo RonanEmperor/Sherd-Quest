@@ -1,4 +1,4 @@
-## Main setup for the objectives.
+## Main setup for the objectives and teams.
 ## Runs from global:load through the tag #global:setup
 
 # Global objectives
@@ -14,7 +14,11 @@ scoreboard objectives add pot_direction dummy {"text": "Pot Direction", "color":
 scoreboard objectives add pot_direction_updated dummy {"text": "Pot Direction (Updated)", "color": "aqua"}
 scoreboard objectives add level_data dummy {"text": "Level Data", "color": "aqua"}
 scoreboard objectives add sherd_id dummy {"text": "Sherd ID", "color": "aqua"}
-scoreboard objectives add is_matching dummy {"text": "Is Matching", "color": "aqua"}
 scoreboard objectives add completion_check dummy {"text": "Completion Check", "color": "aqua"}
 scoreboard objectives add current_level dummy {"text": "Current Level", "color": "aqua"}
 scoreboard objectives add old_current_level dummy {"text": "Old Current Level", "color": "aqua"}
+
+# Teams
+team add players {"text": "Players"}
+team modify players color yellow
+team modify players friendlyFire false

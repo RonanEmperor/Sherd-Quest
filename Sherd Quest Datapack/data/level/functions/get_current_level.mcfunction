@@ -1,3 +1,6 @@
+## Get's a player's current level
+## Ran from global:tick
+
 # Store old current level
 execute as @a run scoreboard players operation @s old_current_level = @s current_level
 
@@ -10,6 +13,6 @@ execute positioned 86 60 -15 as @a[dx=17, dy=15, dz=24] run scoreboard players s
 
 
 # Setup new level if detected to be in a level area
-execute as @a[scores={current_level=0}] unless score @s current_level = @s old_current_level run function level:setup/reset
-execute as @a[scores={current_level=1..}] unless score @s current_level = @s old_current_level run function level:setup
+execute unless entity @a[scores={current_level=1..}] as @a[scores={current_level=0}] unless score @s current_level = @s old_current_level run function level:setup/reset
+execute as @a[scores={old_current_level=0}] if score @s current_level matches 1.. unless entity @a[scores={old_current_level=1..}] run function level:setup
 

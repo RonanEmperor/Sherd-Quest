@@ -1,3 +1,6 @@
+## Main tick loop for sherd_data_markers
+## Ran from level:tick
+
 # Tick
 scoreboard players add @s ticks 1
 

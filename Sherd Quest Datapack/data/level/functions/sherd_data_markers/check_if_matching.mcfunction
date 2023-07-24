@@ -1,2 +1,0 @@
-scoreboard players set @s completion_check 0
-execute if score @s sherd_id = @e[type=#level:level_markers, tag=sherd_data, limit=1, sort=nearest, distance=..1] sherd_id run scoreboard players set @s completion_check 1
