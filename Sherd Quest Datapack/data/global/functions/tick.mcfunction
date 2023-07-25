@@ -16,3 +16,6 @@ function global:zone_titles
 
 # Get a player's current level
 function level:get_current_level
+
+# Detect right click
+execute as @a[scores={right_click_detect=1..}] run function global:right_click_action

@@ -22,7 +22,7 @@
     },
     "criteria": {
       "crafting_table": {
-        "trigger": "minecraft:impossible",
+        "trigger": "minecraft:tick",
         "conditions": {}
       }
     }

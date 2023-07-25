@@ -12,3 +12,4 @@ title @s title {"text": "Sherd Quest", "color": "gold", "bold": true}
 playsound minecraft:block.decorated_pot.shatter master @s ~ ~ ~
 playsound minecraft:block.decorated_pot.hit master @s ~ ~ ~
 playsound minecraft:block.beacon.activate master @s ~ ~ ~
+advancement revoke @s everything

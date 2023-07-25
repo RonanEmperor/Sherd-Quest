@@ -1,6 +1,9 @@
 ## Level completion
 ## Ran when a level is detected to be completed from level:tick
 
+# Give menu items
+execute as @a if score @s current_level = $current_level levels run function level:menu
+
 # Unlock new level
 scoreboard players set $new_level_unlocked levels -1
 execute unless score $current_level levels >= $levels_unlocked levels run tellraw @a ["", {"text": "["}, {"text": "✔", "color": "green", "bold": true}, {"text": "]"}, {"text": " Level Completed!", "color": "yellow"}]
