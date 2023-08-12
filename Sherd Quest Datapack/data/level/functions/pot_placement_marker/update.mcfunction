@@ -11,5 +11,8 @@ execute at @s run function level:pot_placement_marker/move_corresponding_markers
 # Set NBT of decorated pot item
 execute if score @s pot_direction matches -1 as @e[type=minecraft:item, nbt={Item: {id: "minecraft:decorated_pot"}}] run data merge entity @s {Item: {tag: {CanPlaceOn: ["#level:pot_placeable"], display: {Name: '{"text": "Decorated Pot", "color": "#a34c3c", "italic": false}'}}}}
 
+# Get block type
+
+
 # Update corresponding armor stands
 execute as @e[type=#level:level_markers, tag=sherd_data] run scoreboard players set @s ticks 0

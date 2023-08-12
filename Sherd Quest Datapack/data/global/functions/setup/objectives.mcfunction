@@ -18,6 +18,7 @@ scoreboard objectives add sherd_id dummy {"text": "Sherd ID", "color": "aqua"}
 scoreboard objectives add completion_check dummy {"text": "Completion Check", "color": "aqua"}
 scoreboard objectives add current_level dummy {"text": "Current Level", "color": "aqua"}
 scoreboard objectives add old_current_level dummy {"text": "Old Current Level", "color": "aqua"}
+scoreboard objectives add sherd_combiner dummy {"text": "Sherd Combiner", "color": "aqua"}
 
 scoreboard objectives setdisplay sidebar
 

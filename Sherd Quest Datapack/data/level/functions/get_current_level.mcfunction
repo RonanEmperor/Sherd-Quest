@@ -16,4 +16,5 @@ execute positioned 56 66 -93 as @a[dx=23, dy=15, dz=23] run scoreboard players s
 # Setup new level if detected to be in a level area
 execute unless entity @a[scores={current_level=1..}] as @a[scores={current_level=0}] unless score @s current_level = @s old_current_level run function level:setup/reset
 execute as @a[scores={old_current_level=0}] if score @s current_level matches 1.. unless entity @a[scores={old_current_level=1..}] if score $levels_unlocked levels = @s current_level run function level:setup
+execute as @a[scores={old_current_level=0}] if score @s current_level matches 1.. unless score $state state matches 1 if score $levels_unlocked levels = @s current_level run function level:setup
 execute as @a[scores={old_current_level=0}] if score @s current_level matches 1.. unless entity @a[scores={old_current_level=1..}] if score $levels_unlocked levels > @s current_level run function level:menu
