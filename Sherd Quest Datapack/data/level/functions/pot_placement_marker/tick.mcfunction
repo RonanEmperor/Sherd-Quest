@@ -11,7 +11,7 @@ execute unless score @s pot_direction_updated = @s pot_direction run function le
 scoreboard players operation @s pot_direction_updated = @s pot_direction
 
 # Sherd combiner
-execute at @s[tag=sherd_combiner] run function level:pot_placement_marker/sherd_combiner/get_data 
+#execute at @s[tag=sherd_combiner] run function level:pot_placement_marker/sherd_combiner/get_data 
 
 # DEBUG: particles
 particle end_rod ~ ~1 ~ 0 0 0 0 5 force @a[tag=debug]

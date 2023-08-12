@@ -10,7 +10,8 @@ execute if entity @s[tag=south] run data modify entity @s ArmorItems[0].id set f
 # Get Sherd ID
 function level:sherd_data_markers/get_sherd_id
 
-
+# Sherd Combiner Pot Type: Copy adjacent sherd to Armor[1]
+execute if predicate level:
 
 # Set Sherd ID to -1 if no pot is found
 execute if block ~ ~ ~ minecraft:air run scoreboard players set @s sherd_id -1
