@@ -1,0 +1,9 @@
+{
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "block": {
+        "nbt": "{sherds: [\"minecraft:brick\", \"minecraft:snort_pottery_sherd\", \"minecraft:snort_pottery_sherd\", \"minecraft:brick\"]}"
+      }
+    }
+  }
+  
