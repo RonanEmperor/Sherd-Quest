@@ -1,1 +1,24 @@
-data modify block ~ ~ ~ sherds[0] set value 
+## Modifys the sherd data of the pot to include the new combined pottery sherd
+## Ran from level:pot_placement_marker/sherd_combiner/get_data
+
+execute if score @s sherd_combiner matches 0 run data modify block ~ ~ ~ sherds[0] set value "minecraft:brick"
+execute if score @s sherd_combiner matches 1 run data modify block ~ ~ ~ sherds[0] set value "minecraft:angler_pottery_sherd"
+execute if score @s sherd_combiner matches 2 run data modify block ~ ~ ~ sherds[0] set value "minecraft:archer_pottery_sherd"
+execute if score @s sherd_combiner matches 3 run data modify block ~ ~ ~ sherds[0] set value "minecraft:arms_up_pottery_sherd"
+execute if score @s sherd_combiner matches 4 run data modify block ~ ~ ~ sherds[0] set value "minecraft:blade_pottery_sherd"
+execute if score @s sherd_combiner matches 5 run data modify block ~ ~ ~ sherds[0] set value "minecraft:brewer_pottery_sherd"
+execute if score @s sherd_combiner matches 6 run data modify block ~ ~ ~ sherds[0] set value "minecraft:burn_pottery_sherd"
+execute if score @s sherd_combiner matches 7 run data modify block ~ ~ ~ sherds[0] set value "minecraft:danger_pottery_sherd"
+execute if score @s sherd_combiner matches 8 run data modify block ~ ~ ~ sherds[0] set value "minecraft:explorer_pottery_sherd"
+execute if score @s sherd_combiner matches 9 run data modify block ~ ~ ~ sherds[0] set value "minecraft:friend_pottery_sherd"
+execute if score @s sherd_combiner matches 10 run data modify block ~ ~ ~ sherds[0] set value "minecraft:heart_pottery_sherd"
+execute if score @s sherd_combiner matches 11 run data modify block ~ ~ ~ sherds[0] set value "minecraft:heartbreak_pottery_sherd"
+execute if score @s sherd_combiner matches 12 run data modify block ~ ~ ~ sherds[0] set value "minecraft:howl_pottery_sherd"
+execute if score @s sherd_combiner matches 13 run data modify block ~ ~ ~ sherds[0] set value "minecraft:miner_pottery_sherd"
+execute if score @s sherd_combiner matches 14 run data modify block ~ ~ ~ sherds[0] set value "minecraft:mourner_pottery_sherd"
+execute if score @s sherd_combiner matches 15 run data modify block ~ ~ ~ sherds[0] set value "minecraft:plenty_pottery_sherd"
+execute if score @s sherd_combiner matches 16 run data modify block ~ ~ ~ sherds[0] set value "minecraft:prize_pottery_sherd"
+execute if score @s sherd_combiner matches 17 run data modify block ~ ~ ~ sherds[0] set value "minecraft:sheaf_pottery_sherd"
+execute if score @s sherd_combiner matches 18 run data modify block ~ ~ ~ sherds[0] set value "minecraft:shelter_pottery_sherd"
+execute if score @s sherd_combiner matches 19 run data modify block ~ ~ ~ sherds[0] set value "minecraft:skull_pottery_sherd"
+execute if score @s sherd_combiner matches 20 run data modify block ~ ~ ~ sherds[0] set value "minecraft:snuff_pottery_sherd"

@@ -5,6 +5,9 @@
 execute if block ~ ~-1 ~ #level:pot_placeable run tag @s add pot_placement
 execute unless block ~ ~-1 ~ #level:pot_placeable run tag @s add fixed
 
+# Special pot types
+execute if block ~ ~-1 ~ minecraft:reinforced_deepslate run tag @s add combiner_type
+
 execute if block ~ ~ ~ minecraft:decorated_pot{sherds: ["minecraft:brick", "minecraft:snort_pottery_sherd", "minecraft:snort_pottery_sherd", "minecraft:brick"]} run tag @s add sherd_combiner
 
 # Reset existing 

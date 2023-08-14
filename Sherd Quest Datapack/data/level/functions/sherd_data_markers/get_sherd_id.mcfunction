@@ -1,6 +1,8 @@
 ## Stores the armor stands sherd data to a scoreboard score
 ## Ran from level:sherd_data_markers/get_sherd_data
 
+# DEBUG: Macros will be used here in when 1.20.2 gets fully released in place of scoreboard objective
+
 execute if predicate level:sherd_type/brick run scoreboard players set @s sherd_id 0
 execute if predicate level:sherd_type/angler run scoreboard players set @s sherd_id 1
 execute if predicate level:sherd_type/archer run scoreboard players set @s sherd_id 2

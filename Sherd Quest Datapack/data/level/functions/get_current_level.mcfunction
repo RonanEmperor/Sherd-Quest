@@ -10,6 +10,7 @@ scoreboard players set @a current_level 0
 # Test if within area, then set the players current level
 execute positioned 52 60 -9 as @a[dx=17, dy=15, dz=17] run scoreboard players set @s current_level 1
 execute positioned 86 60 -15 as @a[dx=17, dy=15, dz=23] run scoreboard players set @s current_level 2
+execute positioned 90 60 -44 as @a[dx=17, dy=15, dz=17] run scoreboard players set @s current_level 3
 execute positioned 56 66 -93 as @a[dx=23, dy=15, dz=23] run scoreboard players set @s current_level 101
 
 
