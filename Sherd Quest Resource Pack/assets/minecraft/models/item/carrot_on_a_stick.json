@@ -1,0 +1,15 @@
+{
+    "parent": "item/handheld_rod",
+    "textures": {
+        "layer0": "item/carrot_on_a_stick"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "damaged": 0,
+                "damage": 0.25
+            },
+            "model": "item/carrot_on_a_stick/carrot_on_a_stick_02"
+        }
+    ]
+}
